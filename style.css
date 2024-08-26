@@ -1,0 +1,372 @@
+*{
+    margin: 0px;
+    border:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: #00000066; */
+}
+html body{
+    background-color: #000000db;
+}
+/** herosection**/
+
+.hero-section{
+    background-image: url("heroimage.jpg");
+    height:700px;
+    width:100%;
+    background-size: cover;
+    visibility: dark;
+}
+.navbar{
+    height:100px;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.nav-logo{
+    height:90px;
+    width: 190px;
+}
+.logo{
+    background-image: url("netflix_logoooo.jpeg");
+    height:53px;
+    width: 198px;
+    background-size: cover;
+    margin: 18px 0px 0px 170px;
+}
+.select-option{
+    height:32px;
+    width:175px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 15px;
+    border: 0.01px solid white;
+    border-radius: 5px;
+    margin-left: 760px;
+}
+.language{
+    width:100%;
+    height:100%;
+    font-size: 1rem;
+    border:none;
+    background-color: black;
+    color:white;
+    padding-left: 3px;
+}
+.signout-button{
+    height:32px;
+    width:90px;
+    border-radius: 5px;
+    margin-right:190px;    
+}
+.edit-button{
+    height:100%;
+    width:100%;
+    color:#FFFFFF;
+    border:none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background-color: #E50914;
+}
+.hero-message{
+    color:white;
+    /* display:block;
+    justify-content: center;
+    align-items: center; */
+    
+}
+.welcome-message{
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+
+}
+.big-message{
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.small-mess{
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.button-mess{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.button-edit{
+    color:white;
+    font-size: 1.5rem;
+    background-color: #E50914;
+    border-radius: 5px;
+    padding:12px 24px;
+    font-weight: bold;
+    border:none;
+}
+.first-div{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px 0px 90px 0px;
+    margin:9px 0px 9px 0px;
+}
+.tv-big-mess{
+    color:white;
+    padding-right: 6px;
+    margin-left: 90px;
+}
+.tv-mess{
+    font-size: 48px;
+    font-weight: bold;
+    height:62px;
+    width:530px;
+}
+.tv-long-mess{
+    font-size: 24px;
+    height:92px;
+    width:530px;
+    margin-top: 15px;
+}
+.tv-photo{
+    background-image: url("box1_image.png");
+    height:400px;
+    width:530px;
+    margin-right: 110px;
+    background-size: cover;
+}
+.tv-netflix-pic{
+    background-image: url("tv-back.png");
+    background-size: cover;
+    height:220px;
+    width:388px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 84px 0px 0px 70px;
+}
+
+/** second div**/
+
+.second-div{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:45px 0px 125px 0px;
+    margin:9px 0px 9px 0px;
+}
+.mobile-photo{
+    background-image: url("box2_image.png");
+    height:400px;
+    width:530px;
+    background-size: cover;
+    padding-left: 50px;
+}
+.mobile-big-mess{
+    color:white;
+    margin-right: 40px;
+}
+.dwnld-mess{
+    font-size: 48px;
+    font-weight: bolder;
+    height:125px;
+    width:530px;
+}
+.mobile-small-mess{
+    font-size: 24px;
+    margin-top: 16px;
+    height:62px;
+    width:530px;
+}
+
+
+/** 3rd div **/
+
+/* .third-div{
+    background-color: black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px 0px 90px 0px;
+    margin:9px 0px 9px 0px; 
+} */
+.apple-tv-photo{
+    background-image: url("box3_image.png");
+    height:400px;
+    width:530px;
+    margin-right: 110px;
+    background-size: cover;
+}
+.apple-tv-mess{
+    color:white;
+    padding-right: 6px;
+    margin-left: 90px;
+}
+.apple-mess{
+    font-size: 48px;
+    font-weight: bold;
+    height:62px;
+    width:530px;
+}
+.apple-long-mess{
+    font-size: 24px;
+    height:61px;
+    width:530px;
+    margin-top: 15px;
+}
+
+/** forth-div**/
+
+
+.cartoon-pic{
+    background-image: url("box4_image.png");
+    height:400px;
+    width:530px;
+    background-size: cover;
+    padding-left: 50px;   
+}
+.cartoon-big-mess{
+    color:white;
+    margin-right: 60px;
+}
+.cartoon-mess{
+    font-size: 48px;
+    font-weight: bolder;
+    height:62px;
+    width:530px;
+}
+.cartoon-small-mess{
+    font-size: 24px;
+    margin-top: 16px;
+    height:92px;
+    width:530px;
+}
+
+
+/** FAQ **/
+
+.FAQ{
+ background-color: black;
+ display:block;
+ color:white;
+}
+.one{
+    height:62px;
+    font-size: 48px;
+    font-weight: bolder;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px 10px 0px;
+}
+.two{
+    height:85px;
+    width:1070px;
+    background-color:  rgba(128, 128, 128, 0.378);
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin:10px 0px 0px 200px;
+    font-size: 24px;
+
+}
+.fnq-edit{
+    margin-left: 20px;
+}
+
+
+.button-mess-niche{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+.button-edit-niche{
+    color:white;
+    font-size: 1.5rem;
+    background-color: #E50914;
+    border-radius: 5px;
+    padding:12px 24px;
+    font-weight: bold;
+    border:none;
+}
+/** footer**/
+
+
+footer{
+    background-color: black;
+    margin-top: 10px;
+}
+.question{
+    font-size: 16px;
+    color:#FFFFFFB3;
+    padding:70px 0px 40px 177px;
+    
+}
+.sev{
+    text-decoration: underline;
+}
+.foot-panel2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
+    color:#FFFFFFB3;
+    text-decoration:underline;
+    margin-left: -200px;
+}    
+.select-option-niche
+{
+    height:32px;
+    width:175px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 13px;
+    padding-right: 15px;
+    border: 0.01px solid white;
+    border-radius: 5px;
+    margin: 35px 0px 0px 178px;
+}
+.language-niche{
+    width:100%;
+    height:100%;
+    font-size: 1rem;
+    border:none;
+    background-color: black;
+    color:white;
+    padding-left: 3px;
+}
+.last-line{
+    font-size: 14px;
+    color:#FFFFFFB3;
+    padding:25px 0px 60px 178px;
+}
+
+
+
+/** made by me i.e. Prince Mahato**/
