@@ -32,3 +32,5 @@ Contributions are welcome! To contribute to this project:
 Acknowledgments
 * Inspired by the design and layout of Netflix's user interface.
 * Thanks to various online resources and design inspirations.
+
+Contact For any questions or feedback, you can reach me at mahatoprince61@gmail.com
